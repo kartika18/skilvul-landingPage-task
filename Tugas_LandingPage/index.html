@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EcoSampah</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header id="navbar">
+      <nav>
+        <h1 class="logo"><span>Eco</span>Sampah</h1>
+        <ul class="list-navbar">
+          <li><a href="https://skilvul.com" target="_blank" id="link">Home</a></li>
+          <li><a href="">About</a></li>
+          <li><a href="">Features</a></li>
+          <li><a href="">Contact Us</a></li>
+        </ul>
+      </nav>
+      <div class="btn-navbar">
+        <button class="log-in">Log In</button>
+        <button class="sign-up">Sign Up</button>
+      </div>
+    </header>
+    <section id="landing">
+        <div class="content-left">
+          <div class="content-paragraph">
+            <h1>Lindungi Bumi, Bersama-sama Melawan Limbah!</h1>
+            <p id="description">
+              <span>Eco</span>Sampah akan membantu kamu mewujudkan impian dunia
+              dan menginspirasi perubahan untuk dunia yang lebih bersih!
+            </p>
+          </div>
+          <div>
+            <button class="btn-cta">Ikuti Program</button>
+          </div>
+        </div>
+        <div class="content-right">
+          <img
+            src="images/Throw away-pana.svg"
+            width="600px"
+            alt="Laki-laki Membuang Sampah"
+          />
+        </div>
+    </section>
+    <section id="form">
+        <form onsubmit="handleGetFormData(event)">
+          <h1>Ayo, Daftar Jadi Member Kami!</h1>
+          <input type="text" id="name" placeholder="Nama lengkap kamu..">
+          <input type="text" id="city" placeholder="Kota kamu..">
+          <input type="email" id="email" placeholder="Email kamu..">
+          <input type="number" id="zip-code" placeholder="Kode Pos tempat tinggal kamu..">
+          <input type="checkbox" id="status">
+          <label for="check" id="check">Dengan ini saya menyatakan data yang diisi pada form ini adalah benar dan telah sesuai</label>
+          <button type="submit" id="submit-form">Submit</button>
+        </form>
+        <div id="warning"></div>
+    </section>
+    <footer>
+      <div id="upside-content">
+        <div class="up-left-content">
+          <h3 class="logo"><span>Eco</span>Sampah</h3>
+          <p>Lindungi Bumi, Bersama-sama Melawan Limbah!</p>
+        </div>
+        <div class="up-middle-content">
+          <a href="">Tentang Kami</a>
+          <a href="">Fitur</a>
+          <a href="">Kontak</a>
+          <a href=""">Blog</a>
+        </div>
+        <div class="up-right-content">
+          <h3>Kantor Pusat</h3>
+          <p>
+            Jalan Laut Bumi, No. 56, RT. 13, RW. 02, Kataruna, Jakarta Barat,
+            Jakarta
+          </p>
+        </div>
+      </div>
+      <div id="downside-content">
+        <div class="down-left-content">
+          <p>2023, EcoSampah</p>
+        </div>
+        <div class="down-right-content">
+          <img src="images/linkedin.png" alt="Linkedin" />
+          <img src="images/instagram.png" alt="Instagram" />
+          <img src="images/twitter.png" alt="Twitter" />
+          <img src="images/youtube.png" alt="Youtube" />
+        </div>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

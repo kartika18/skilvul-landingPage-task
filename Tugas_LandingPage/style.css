@@ -1,0 +1,197 @@
+@import url("https://fonts.googleapis.com/css2?family=Alata&family=Krona+One&family=Poppins&display=swap");
+
+:root {
+  --primary-color: #b7eb8f;
+  --secondary-color: #08979c;
+  --logo-color: #95de64;
+  --font-title: "Alata", sans-serif;
+  --font-logo: "Krona One", sans-serif;
+  --font-text: "Poppins", sans-serif;
+}
+
+* {
+  box-sizing: border-box;
+  font-family: var(--font-text);
+  margin: 0;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  margin: 60px 120px;
+}
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  font-family: var(--font-title);
+  padding: 24px 120px;
+  box-shadow: 0 1px 4px rgba(100, 100, 100, 0.5);
+}
+
+.logo {
+  font-family: var(--font-logo);
+}
+
+span {
+  color: var(--logo-color);
+}
+
+nav {
+  display: flex;
+  gap: 84px;
+}
+
+.list-navbar {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+  padding: 0;
+}
+
+.list-navbar li {
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  font-size: larger;
+  color: black;
+  font-family: var(--font-title);
+}
+
+.btn-navbar {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.log-in,
+.sign-up {
+  border: none;
+  background-color: white;
+  padding: 8px 32px;
+  font-family: var(--font-title);
+  font-size: larger;
+  cursor: pointer;
+}
+
+.sign-up {
+  background-color: var(--primary-color);
+  border-radius: 12px;
+}
+
+#landing {
+  display: flex;
+  align-items: center;
+  gap: 120px;
+  margin-top: 48px;
+}
+
+.content-paragraph h1 {
+  font-family: var(--font-title);
+  font-size: 60px;
+  margin-bottom: 24px;
+}
+
+.content-paragraph p {
+  font-family: var(--font-text);
+  font-size: larger;
+  margin-bottom: 24px;
+}
+
+.btn-cta {
+  border: none;
+  background-color: var(--primary-color);
+  padding: 12px 48px;
+  font-family: var(--font-title);
+  border-radius: 12px;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 0 360px;
+}
+
+form h1 {
+  text-align: center;
+  margin-bottom: 48px;
+  font-size: xx-large;
+}
+
+form input {
+  border: none;
+  border-bottom: 1px solid black;
+  background-color: white;
+  margin-bottom: 24px;
+}
+
+form label {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+form button {
+  border: none;
+  background-color: var(--primary-color);
+  border-radius: 12px;
+  padding: 12px 36px;
+  display: grid;
+  margin: auto;
+  cursor: pointer;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+  background-color: var(--secondary-color);
+  padding: 60px 120px;
+}
+
+#upside-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+}
+
+.up-left-content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.up-middle-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.up-middle-content a {
+  margin-bottom: 12px;
+  text-decoration: none;
+  color: black;
+}
+
+.up-right-content {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+#downside-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.down-right-content img {
+  width: 24px;
+  margin-right: 12px;
+}
